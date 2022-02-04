@@ -1,0 +1,15 @@
+hosts: all
+tasks:
+-name: install applications that I use a lot
+ apt:
+  name: nano
+ apt: 
+  name: ansiweather
+ apt:
+  name: gnome-clocks
+ apt:
+  name: gnome-shell-pomodoro
+ apt:
+  name: googler
+ apt:
+  name: taskwarrior
